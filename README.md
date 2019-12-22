@@ -1,5 +1,7 @@
 # Email Classifier
 
+#### This was implemented under the valuable guidance of Prof David Crandall at Indiana University in B551 Elements of AI during Fall 2019.
+
 This is a supervised document classification problem where the algorithm helps in deciding whether an e-mail is a spam or not spam. This problem can be considered as a classic example of Naive Bayes Implementation. The naive Bayes implementation typically is derived from the Bayes Net Problem, keeping in mind the assumption that there exists conditional independence amongst all the observable variables. In the context of this problem, the assumption is that we consider email as a bag of words instead of considering any relation between a set of words or considering rules of grammar.
 
 For example, if we have an email with n words, so we need to find the probability of whether the given email is a spam or not spam which is given by, P(spam | w1, w2, w3, w4, w5, …. wn). We can calculate this probability by the Naive Bayes formula as follows,
